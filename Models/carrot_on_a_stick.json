@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+		{"predicate": {"custom_model_data": 2}, "model": "item/weapons/trollsword"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/weapons/broadsword"},
+        {"predicate": {"custom_model_data": 10101010}, "model": "item/grimoires/fire/book"},
+        {"predicate": {"custom_model_data": 10111111}, "model": "item/wand/teleportwand/teleportwand"},
+        {"predicate": {"custom_model_data": 10121212}, "model": "item/grimoires/waystone/waystone"},
+        {"predicate": {"custom_model_data": 10131313}, "model": "item/weapons/pan_flute"}
+    ]
+}
