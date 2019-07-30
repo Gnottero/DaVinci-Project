@@ -1,0 +1,6 @@
+{
+    "replace": true,
+    "values": [
+        "davinci:setup", "davinci:machines/treefarm/farmloot", "atomic:load"
+    ]
+}

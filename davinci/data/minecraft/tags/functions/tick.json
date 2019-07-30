@@ -1,0 +1,6 @@
+{
+  "replace": true,
+  "values": [
+    "davinci:main", "atomic:main"
+  ]
+}
