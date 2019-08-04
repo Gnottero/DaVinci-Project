@@ -1,0 +1,10 @@
+{
+	"davinci.itemframe.place": {
+		"sounds": [
+			"davinci/itemframe/place1",
+			"davinci/itemframe/place2",
+			"davinci/itemframe/place3",
+			"davinci/itemframe/place4"
+		]
+	}
+}

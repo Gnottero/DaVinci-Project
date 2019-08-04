@@ -1,0 +1,11 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/item_frame"
+	},
+	
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1000 }, "model": "dv.blocks:spawner" },
+		{ "predicate": { "custom_model_data": 1001 }, "model": "dv.blocks:copper_ore" }
+	]
+}
