@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "minecraft:item_frame",
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{EntityTag:{Tags:[\"Remove\"]}}"
+        },
+        {
+          "function": "minecraft:copy_nbt",
+          "source": "block_entity",
+          "ops": [{
+              "source": "SpawnData.CustomName",
+              "target": "display.Name",
+              "op": "replace"
+            },
+            {
+              "source": "SpawnData.EntityTag.Tags",
+              "target": "EntityTag.Tags",
+              "op": "replace"
+            },
+            {
+              "source": "SpawnData.ArmorItems[3].tag.CustomModelData",
+              "target": "CustomModelData",
+              "op": "replace"
+            }
+          ]
+        }
+      ]
+    }]
+  }]
+}

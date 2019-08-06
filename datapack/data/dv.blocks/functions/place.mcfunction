@@ -4,7 +4,7 @@
 
 #Place blocks
 	#Copper Ore
-	execute as @e[tag=copper_ore] at @s if block ~ ~ ~ air unless entity @a[distance=...82] run setblock ~ ~ ~ spawner{SpawnCount:0,SpawnRange:0,Delay:0,MaxNearbyEntities:0,RequiredPlayerRange:0,SpawnData:{id:"armor_stand",Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"item_frame",Count:1b,tag:{CustomModelData:1001}}]}}
+	execute as @e[tag=copper_ore] at @s if block ~ ~ ~ air unless entity @a[distance=...82] run setblock ~ ~ ~ spawner{SpawnCount:0,SpawnRange:0,Delay:0,MaxNearbyEntities:0,RequiredPlayerRange:0,SpawnData:{id:"armor_stand",CustomName:"{\"text\":\"Copper Ore\",\"italic\":false}",EntityTag:{Tags:["copper_ore","sound.stone.place"]},Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"item_frame",Count:1b,tag:{CustomModelData:1001}}]}}
 
 #Play place sounds
 	#Item Frame
