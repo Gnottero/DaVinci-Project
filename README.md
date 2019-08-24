@@ -15,7 +15,7 @@ Here will be the documentation for the development side of the DaVinci Project a
 Important: All item frames that aren't tagged `"item_frame"` will be deleted
 ### Resource Pack
 - All custom models and textures must be within their respective modules. The only files in `assets/minecraft` should be sounds (`sounds/davinci`) or models/textures that need to be replaced, such as item frames and spawners. Everything else shall reside in `assets/dv.module`.
-
+<!--
 ## Blocks
 ### Item
 To add a new block, add the `"custom_model_data"` predicate to `assets/minecraft/models/item/item_frame.json`, referencing `dv.blocks:custom_model`. Then, in `assets/dv.blocks/models` copy an existing .json file and redirect the texture to `dv.blocks:custom_texture` which corresponds with `assets/dv.blocks/textures/custom_texture.png`.
@@ -24,7 +24,7 @@ To add a new block, add the `"custom_model_data"` predicate to `assets/minecraft
 |------| ------- |------------| --- |
 | name | spawner | copper_ore |     |
 | id   | 1000    | 1001       |     |
-<!--
+
 ### Block
 In order to have the block actually function, the following steps must be completed in `data/dv.blocks/functions`:
 1. Add
@@ -35,7 +35,7 @@ To give a new block a placement sound, you'll need to add a tag `sound.custom` t
 | ------- | ----------------- | --- |
 | Tag     | sound.stone.place |     |
 | Sound   | block.stone.place |     |
-
+-->
 <!--Add module documentation above this line-->
 ___
 [DaVinci Project Discord](https://discord.gg/bgcEGdZ)
