@@ -1,0 +1,13 @@
+{
+	"parent": "block/command_block",
+	"textures": {
+		"all": "block/command_block_side",
+		"bottom": "block/command_block_back",
+		"top": "block/command_block_front"
+	},
+	
+	"overrides": [
+		{ "predicate": { "custom_model_data": 2000 }, "model": "dv.rustics:plant_fiber"},
+		{ "predicate": { "custom_model_data": 2001 }, "model": "dv.rustics:crafting_rock"}
+	]
+}

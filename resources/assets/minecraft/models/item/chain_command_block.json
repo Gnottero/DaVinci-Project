@@ -1,0 +1,15 @@
+{
+	"parent": "block/chain_command_block",
+	"textures": {
+		"all": "block/chain_command_block_side",
+		"bottom": "block/chain_command_block_back",
+		"top": "block/chain_command_block_front"
+	},
+
+	"overrides": [{
+		"predicate": {
+			"custom_model_data": 2001
+		},
+		"model": "dv.rustics:twine"
+	}]
+}

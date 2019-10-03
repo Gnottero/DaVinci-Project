@@ -6,6 +6,12 @@
 	
 	"overrides": [
 		{ "predicate": { "custom_model_data": 1000 }, "model": "dv.blocks:spawner" },
-		{ "predicate": { "custom_model_data": 1001 }, "model": "dv.blocks:copper_ore" }
+		{ "predicate": { "custom_model_data": 1001 }, "model": "dv.blocks:copper_ore" },
+		{ "predicate": { "custom_model_data": 1002 }, "model": "dv.energy:generator" },
+		{ "predicate": { "custom_model_data": 1003 }, "model": "dv.energy:energypoint" },
+		{ "predicate": { "custom_model_data": 1004 }, "model": "dv.energy:energynode" },
+		{ "predicate": { "custom_model_data": 1005 }, "model": "dv.rustics:oak_chopping_block" },
+		{ "predicate": { "custom_model_data": 2000 }, "model": "dv.rustics:plant_fiber"},
+		{ "predicate": { "custom_model_data": 2001 }, "model": "dv.rustics:work_stump"}
 	]
 }
