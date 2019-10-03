@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#T",
+        "T#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "T": {
+            "item": "minecraft:chain_command_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:bat_spawn_egg",
+        "count": 1
+    }
+}

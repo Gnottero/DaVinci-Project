@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Get some Flint"
+        },
+        "description": {
+            "text": "In order to craft flint tools you obviously need some flint! Break some Gravel with your Grass Fiber Mesh to obtain some flint",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:flint"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Get some flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:flint"
+                }]
+            }
+        }
+    },
+    "parent": "dv.rustics:stone_age/crafted_grass_fiber_mesh"
+}

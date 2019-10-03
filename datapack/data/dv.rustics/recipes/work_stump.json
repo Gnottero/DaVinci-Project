@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "T"
+    ],
+    "key": {
+        "#": {
+            "tag": "dv.rustics:chopping_block"
+        },
+        "T": {
+            "tag": "minecraft:logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:vex_spawn_egg",
+        "count": 1
+    }
+}

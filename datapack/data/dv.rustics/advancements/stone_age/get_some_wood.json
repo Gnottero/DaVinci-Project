@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Caveman Hate Tree!"
+        },
+        "description": {
+            "text": "Punch a few trees, so you get a good amount of wood, one stack should be enough to start.",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Get some woor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "tag": "minecraft:logs"
+                }]
+            }
+        }
+    },
+    "parent": "dv.rustics:stone_age/get_flint_hatchet"
+}

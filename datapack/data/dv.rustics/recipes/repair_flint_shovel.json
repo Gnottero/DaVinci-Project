@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "minecraft:wooden_shovel"
+        }
+    ],
+    "result": {
+        "item": "minecraft:wooden_shovel",
+        "count": 1
+    }
+}

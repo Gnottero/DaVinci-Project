@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Welcome to the Stone Age!"
+        },
+        "description": {
+            "text": "Welcome player! As you may notice, this world is not the usual Minecraft world, there are different rules here. We currently are in the Stone Age. In this age the world will be particularly hostile. Your goal is to collect items, improve your equipment, evolve and conquer this world. Let's start this great adventure",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/cobblestone.png"
+    },
+    "criteria": {
+        "Stone Age": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

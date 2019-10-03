@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I HAVE CREATED FIRE"
+        },
+        "description": {
+            "text": "Hold a Fire Stick in Each hand and click on a block to create fire",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:stick",
+            "nbt": "{CustomModelData:1000}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Crafted Fire Sticks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:stick",
+                    "nbt": "{CustomModelData:1000}",
+					"count": {
+						"min":2
+					}
+                }]
+            }
+        }
+    },
+    "parent": "dv.rustics:stone_age/get_flint_hatchet"
+}

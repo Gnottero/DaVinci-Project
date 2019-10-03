@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+        "item": "minecraft:spruce_log"
+    }],
+    "result": {
+        "item": "minecraft:petrified_oak_slab"
+    }
+}

@@ -1,10 +1,14 @@
 #Initialization function for the energy module
+    
+    #Global variables
     scoreboard objectives add DV.Energy dummy
+    scoreboard objectives add DV.Counter dummy
+
+    #Temporary variables
     scoreboard objectives add dv.energybackup dummy
     scoreboard objectives add dv.generator_1 dummy
     scoreboard objectives add dv.used_item dummy
     scoreboard objectives add dv.nodebuffer dummy
-    execute store result score $Energy dv.generator_1 run data get block 3 56 17 RecordItem.tag.energy.generator.tier1.generation
-    scoreboard players set @e[tag=EnergyGenerator] dv.energybackup 0
-    scoreboard objectives add DV.Counter dummy
-    scoreboard players set @e[tag=EnergyGenerator] dv.nodebuffer 0
+    
+    #Storing value into scoreboards
+    execute store result score $Energy dv.generator_1 run data get storage minecraft:dv.master energy/generators/tier1

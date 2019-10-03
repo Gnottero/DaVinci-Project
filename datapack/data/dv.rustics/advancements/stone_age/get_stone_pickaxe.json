@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Stone Age!"
+        },
+        "description": {
+            "text": "Craft a Stone Pickaxe to upgrade your aresenal",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Get some flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:stone_pickaxe"
+                }]
+            }
+        }
+    },
+    "parent": "dv.rustics:stone_age/get_flint_pickaxe"
+}

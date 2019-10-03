@@ -1,0 +1,2 @@
+#Giving a Craftin Rock to the player when he completes the "I'm Stumped" advancement
+    give @s minecraft:command_block{CustomModelData:2001,display:{Name:'{"text":"Crafting Rock","italic":false,"color":"white"}'}}

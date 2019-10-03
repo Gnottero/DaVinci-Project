@@ -1,0 +1,6 @@
+#Summoning the armor stand facing the right direction (Generator Tier 1) and killing the item frame
+    execute if entity @p[y_rotation=-316..-226] run summon armor_stand ~ ~-0.031 ~ {Tags:["Generator","Remove"],Small:1b,Marker:1b,Invisible:1b,NoGravity:1b,Rotation:[-90f],ArmorItems:[{}, {}, {}, {id: "minecraft:item_frame", Count: 1b, tag: {CustomModelData: 1002}}]}
+    execute if entity @p[y_rotation=-407..-317] run summon armor_stand ~ ~-0.031 ~ {Tags:["Generator","Remove"],Small:1b,Marker:1b,Invisible:1b,NoGravity:1b,Rotation:[-180f],ArmorItems:[{}, {}, {}, {id: "minecraft:item_frame", Count: 1b, tag: {CustomModelData: 1002}}]}
+    execute if entity @p[y_rotation=-498..-408] run summon armor_stand ~ ~-0.031 ~ {Tags:["Generator","Remove"],Small:1b,Marker:1b,Invisible:1b,NoGravity:1b,Rotation:[-270f],ArmorItems:[{}, {}, {}, {id: "minecraft:item_frame", Count: 1b, tag: {CustomModelData: 1002}}]}
+    execute if entity @p[y_rotation=-225..-135] run summon armor_stand ~ ~-0.031 ~ {Tags:["Generator","Remove"],Small:1b,Marker:1b,Invisible:1b,NoGravity:1b,Rotation:[-360f],ArmorItems:[{}, {}, {}, {id: "minecraft:item_frame", Count: 1b, tag: {CustomModelData: 1002}}]}
+    kill @s

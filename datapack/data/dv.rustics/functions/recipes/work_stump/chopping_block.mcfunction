@@ -1,0 +1,2 @@
+#Replacing the log with chopping block (Inside the work stump)
+    replaceitem block ~ ~ ~ container.13 item_frame{CustomModelData:1005,display:{Name:'{"text":"Chopping Block","italic":false}'},EntityTag:{Tags:["Chopping_Block"]}}

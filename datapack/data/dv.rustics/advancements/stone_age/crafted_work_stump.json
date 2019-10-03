@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I'm Stumped!"
+        },
+        "description": {
+            "text": "No crafting tables yet! Use a Work Stump instead. To craft the items, place them and the Crafting Rock in the table in the correct pattern. If you want, you can leave the Crafting Rock insede the table",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:item_frame",
+            "nbt": "{CustomModelData:2001}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Gather some plant fibers": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:item_frame",
+                    "nbt": "{CustomModelData:2001}"
+                }]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dv.rustics:give/give_stone"
+    },
+    "parent": "dv.rustics:stone_age/crafted_chopping_block"
+}

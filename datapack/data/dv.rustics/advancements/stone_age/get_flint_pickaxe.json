@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Upgrade!"
+        },
+        "description": {
+            "text": "Upgrade to a Flint Pickaxe!",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Get some flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:wooden_pickaxe"
+                }]
+            }
+        }
+    },
+    "parent": "dv.rustics:stone_age/get_flint_hatchet"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "It's Too Dangerous to Go Alone"
+        },
+        "description": {
+            "text": "Craft a Flint Hatchet so you can cut down trees",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:wooden_axe"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Get some flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:wooden_axe"
+                }]
+            }
+        }
+    },
+    "parent": "dv.rustics:stone_age/root"
+}

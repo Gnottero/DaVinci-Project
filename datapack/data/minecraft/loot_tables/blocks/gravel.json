@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "minecraft:alternatives",
+            "children": [{
+                    "type": "minecraft:item",
+                    "name": "minecraft:flint",
+                    "conditions": [{
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "nbt": "{display: {Name: '{\"text\":\"Grass Fiber Mesh\",\"italic\":false}'}}",
+                            "item": "wooden_shovel"
+                        }
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gravel"
+                }
+            ]
+        }]
+    }]
+}

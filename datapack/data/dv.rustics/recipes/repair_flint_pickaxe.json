@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+            "item": "minecraft:flint"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        }
+    ],
+    "result": {
+        "item": "minecraft:wooden_pickaxe",
+        "count": 1
+    }
+}

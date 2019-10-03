@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:item_frame",
+        "minecraft:petrified_oak_slab"
+    ]
+}

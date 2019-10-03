@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "~#",
+        "I "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:flint"
+        },
+        "~": {
+            "item": "minecraft:chain_command_block"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_axe",
+        "count": 1
+    }
+}
